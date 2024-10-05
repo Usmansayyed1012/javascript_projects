@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav .menu {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav .menu p {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+body #main h1 {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body #main .quote-generator {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+body #main .quote-generator .container .quote-generate-area {
+    width: 850px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+body #main .quote-generator .container {
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+body #main .quote-generator .container .quote-generate-area #author-name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body #main .quote-generator .container .button {
+    display: flex;
+    justify-content: center;
+}
+
+body #main .quote-generator .container .button button {
+    padding: 5px 100px 5px 100px;
+    background: orange;
+    font-size: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+body #main .quote-generator .container .quote-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+body #main .quote-generator .container .quote-data h3 {
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+body #main .quote-generator .container .quote-data input {
+    padding: 10px 80px 11px 10px;
+}
+
+body #main .quote-generator .container .quote-data .author-name h3 {}
